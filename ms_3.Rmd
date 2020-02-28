@@ -18,8 +18,8 @@ I chose to focus my analysis on cricket because I am from Pakistan and have been
 
 ## Data
 
-The primary data source used in this project is from cricsheet.org. The website has compiled ball-by-ball data on over 5000 cricket matches. The cricket data is grouped according to gender and then further divided based on the match format. In this project, I used the yaml files for the following two match types: 
-i) T20 Internationals
-ii) One Day Internationals
-Using the yorkr package, I first converted the yaml files that contained the commentary data into RData files. I then compiled the separate RData files into two seperate meta-datasets, one for each format. The first of there contains information on 1233 One Day Internationals and the second contains information on 673 T20 Internationals. All the data analysis is conducted using information from these two datasets. 
+The primary data source used in this project is from [cricsheet.org](cricsheet.org). The website has compiled ball-by-ball data on over 5000 cricket matches. The cricket data is grouped according to gender and then further divided based on the match format. In this project, I used the yaml files for the following two match types: 
+i) [T20 Internationals](https://cricsheet.org/downloads/t20s_male.zip)
+ii) [One Day Internationals](https://cricsheet.org/downloads/odis_male.zip)
+Using the yorkr package, I first converted the yaml files that contained the commentary data into RData files. I then compiled the separate RData files into two seperate meta-datasets, one for each format. The first of there contains information on 1298 One Day Internationals and the second contains information on 673 T20 Internationals. All the data analysis is conducted using information from these two datasets. 
 
